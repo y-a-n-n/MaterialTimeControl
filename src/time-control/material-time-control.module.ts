@@ -15,7 +15,7 @@ import {
   WTimeDialogComponent,
   WClockComponent,
   WTimeComponent
-} from './time-control';
+} from './';
 
 
 @NgModule({
