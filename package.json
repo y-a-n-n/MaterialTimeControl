@@ -7,7 +7,7 @@
   "typings": "./dist/index.d.ts",
   "files": [
     "dist"
-  ]
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve ./demo",
