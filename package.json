@@ -11,7 +11,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve ./demo",
-    "build": "ng build",
+    "copy-html": "copyfiles -u 1 \"./src/**/*.{scss,html}\" \"./dist/\"",
+    "build": "tsc && npm run copy-html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -49,6 +50,7 @@
     "awesome-typescript-loader": "^3.5.0",
     "codelyzer": "^4.5.0",
     "copy-webpack-plugin": "^4.5.3",
+    "copyfiles": "^2.1.0",
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
