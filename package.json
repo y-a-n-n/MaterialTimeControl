@@ -3,7 +3,11 @@
   "version": "0.1.4",
   "license": "MIT",
   "private": false,
-  "main": "material-time-control.module.ts",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
   "scripts": {
     "ng": "ng",
     "start": "ng serve ./demo",
